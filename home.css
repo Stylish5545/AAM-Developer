@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav {
+    border: solid;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+}
+
+.one {
+    height: 70%;
+    width: 20%;
+    /* border: solid; */
+    padding: 2px;
+color:rgb(9, 236, 164);
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Times New Roman', Times, serif;
+
+
+
+
+}
+.two{
+    height:70%;
+    width: 60%;
+border: solid;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.main{
+    height: 100vh;
+    background-color:rgb(152 184 187);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.welcome{
+    height: 50%;
+    width: 60%;
+border: solid;
+    
+
+}
+.a{
+    height: 33%;
+    width: 100%;
+border: solid;
+
+
+}
+.b{
+     height: 33%;
+    width: 100%;
+border: solid;
+
+
+
+}
+.c{
+     height: 33%;
+    width: 100%;
+border: solid;
+
+
+}
+.b1{
+    height: 25%;
+width:25%;
+border-radius: 100%;
+border: solid;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: aqua;
+
+}
+.search{
+     height: 50%;
+    width: 60%;
+border: solid;
+display: flex;
+justify-content:center;
+align-items: center;
+    
+}
+.guest{
+    height: 33%;
+    width: 100%;border: solid;
+
+}
+#L1{
+    height: 50%;
+    border: solid;
+width: 50%;
+border-radius: 100%;
+color: brown;
+background-color: brown;
+}
+
+
+
+
+
+
+
+
+
