@@ -7,7 +7,7 @@ box-sizing: border-box;
 .main {
     background-color: rgb(152 184 187);
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
 }
@@ -93,4 +93,31 @@ color:white ;
 
 
 
+}
+.order{
+    font-size: 25px;
+    height: 100px;
+    color: whitesmoke;
+    border: solid pink;
+
+    width: 150px;
+    border: solid;
+    border-radius: 250%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 82%;
+top: 110%;
+
+animation: animate 1s infinite linear;
+background-image: linear-gradient(60deg,red,blue,green,orange,aqua,pink,brown);
+}
+@keyframes animate{
+    0%
+}
+
+.one p:hover{
+    background-color:aqua;
+    colo
 }

@@ -1,0 +1,78 @@
+ .nav {
+    border: solid;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    background-color: brown;
+
+}
+.main{
+    height: 300vh;
+    width: 100%;
+    background-image: linear-gradient(60deg,red,blue,green,orange,aqua,pink,brown);
+
+}
+.photo{
+height: 30vh;
+width: 30%;
+margin: 2px;
+padding: 2px;
+border: solid;
+}
+
+
+
+
+
+
+.one {
+    height: 70%;
+    width: 20%;
+    /* border: solid; */
+    padding: 2px;
+color:rgb(9, 236, 164);
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Times New Roman', Times, serif;
+
+
+
+
+}
+.two{
+    height:70%;
+    width: 60%;
+border: solid;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.PH{
+    height: 24%;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.PH1{
+     height: 24%;
+    width: 100%;
+    display: flex;
+
+}
+.PH2{
+     height: 24%;
+    width: 100%;
+    display: flex;
+}
+.PH3{
+     height: 24%;
+    width: 100%;
+    display: flex;
+}

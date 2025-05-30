@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 .nav {
     border: solid;
@@ -9,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: rgb(169, 224, 232);
     position: sticky;
 }
 
@@ -18,15 +19,12 @@
     width: 20%;
     /* border: solid; */
     padding: 2px;
-color:rgb(9, 236, 164);
+color:rgb(249, 45, 252);
 font-size: 25px;
 display: flex;
 justify-content: center;
 align-items: center;
 font-family: 'Times New Roman', Times, serif;
-
-
-
 
 }
 .two{
@@ -110,8 +108,13 @@ border-radius: 100%;
 color: brown;
 background-color: brown;
 }
+one:hover{
+   background-color: rgb(24, 111, 217);
+   font-size: 50px;
 
 
+
+}
 
 
 
