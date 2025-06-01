@@ -14,13 +14,14 @@ box-sizing: border-box;
 
 .nav {
     border: solid;
-    height: 5vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    position: sticky;
+    background-color: rgb(141, 184, 240);
+    position: fixed;
+
 }
 
 .one {
@@ -29,7 +30,8 @@ box-sizing: border-box;
     /* border: solid; */
     padding: 2px;
 color:rgb(9, 236, 164);
-font-size: 25px;
+font-size: 35px;
+font-weight: bolder;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -39,14 +41,67 @@ font-family: 'Times New Roman', Times, serif;
 
 
 }
+.one:hover{
+    color: rgb(255, 30, 0);
+    font-weight: 300;
+}
 .two{
     height:70%;
     width: 60%;
-border: solid;
+/* border: solid; */
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
+}
+ .two p{
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s ease;
+ }
+ .two p:hover{
+    color: rgb(255, 30, 0);
+    font-size: 30px;
+
+ }
+ .search{
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+
+ }
+ .search form{
+    display: flex;
+    margin: 0;
+ }
+ .search input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+
+    
+ }
+  .search input:hover{
+    border: 1px solid rgb(255, 30, 0);
+  }
+.search button{
+    padding: 10px;
+    background-color: #7efc84;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+
+
+
+}
+.search button:hover{
+    background-color: #ccc;
 }
 .A-section{
     border: solid;
@@ -54,6 +109,10 @@ height: 40vh;
 width: 25%;
 opacity: 80%;
 margin: 90px;
+}
+.A-section:hover{
+    color: rgb(3, 10, 100);
+   
 }
 h1{
 font-size: 55px;
@@ -97,7 +156,7 @@ color:white ;
 .order{
     font-size: 25px;
     height: 100px;
-    color: whitesmoke;
+    color: rgb(190, 245, 203);
     border: solid pink;
 
     width: 150px;
@@ -111,7 +170,7 @@ left: 82%;
 top: 110%;
 
 animation: animate 1s infinite linear;
-background-image: linear-gradient(60deg,red,blue,green,orange,aqua,pink,brown);
+background-image: linear-gradient(45deg,rgb(243, 200, 200),rgb(200, 200, 252),rgb(177, 241, 177),rgb(253, 216, 146),aqua,pink,brown);
 }
 @keyframes animate{
     0%
@@ -119,5 +178,5 @@ background-image: linear-gradient(60deg,red,blue,green,orange,aqua,pink,brown);
 
 .one p:hover{
     background-color:aqua;
-    colo
+    
 }
