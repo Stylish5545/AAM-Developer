@@ -20,6 +20,8 @@ box-sizing: border-box;
     align-items: center;
     background-image:linear-gradient( 45deg,violet ,rgb(249, 183, 16),rgb(249, 165, 226));
     position: fixed;
+    z-index: 1;
+
 }
 .one {
     height: 70%;
@@ -101,7 +103,7 @@ opacity: 80%;
 margin: 90px;
 }
 .A-section{
-    position: fixed;
+    /* position:static; */
 left: 20px;
 
 color:white ;
@@ -156,19 +158,70 @@ justify-content: center;
 align-items: center;
 position: absolute;
 left: 82%;
-top: 100%;
+top: 95%;
 
 animation: animate 1s infinite linear;
 background-image: linear-gradient(45deg,rgb(243, 200, 200),rgb(200, 200, 252),rgb(177, 241, 177),rgb(253, 216, 146),aqua,pink,brown);
 }
 @keyframes animate{
-    0%
+   0%{
+    color: #7efc84;
+    text-shadow: none;
+   }
+   18%{
+    color: rgb(182, 15, 248);
+    text-shadow: none;
+
+   }
+   20%{
+    color: aquamarine;
+    text-shadow: 0 0 7px #587078, 0 0 20px #9e5b5b;
+   }
 }
 .order:hover{
-font: size 33px;
+ font-size: 29px;
 }
 
 .one p:hover{
-    /* background-color:aqua; */
+    background-color:aqua;
     
 }
+.lastgen{
+    height: 80%;
+    width: 50%;
+    border: #f51212;
+    position: absolute;
+    top: 90%;
+
+
+
+
+}
+h2{
+    color: rgb(64, 43, 13);
+}
+
+
+h6 ,p{
+    color: rgb(184, 70, 250);
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    animation: animate 1s infinite linear;
+  
+}
+@keyframes animate{
+   0%{
+    color: #7efc84;
+    text-shadow: none;
+   }
+   18%{
+    color: rgb(248, 14, 14);
+    text-shadow: none;
+
+   }
+   20%{
+    color: aquamarine;
+    text-shadow: 0 0 7px #587078, 0 0 20px #9e5b5b;}
+   }
