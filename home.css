@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
+
 .nav {
     /* border: solid; */
     height: 10vh;
@@ -10,65 +11,71 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image:linear-gradient( 45deg,violet ,rgb(249, 183, 16),rgb(249, 165, 226));
+    background-image: linear-gradient(45deg, violet, rgb(249, 183, 16), rgb(249, 165, 226));
     position: fixed;
 }
 
-    
+
 .one {
     height: 70%;
     width: 20%;
     /* border: solid; */
     padding: 2px;
-color:#587078;
-font-size: 35px;
-font-weight: bolder;
-display: flex;
-justify-content: center;
-align-items: center;
-font-family: 'Times New Roman', Times, serif;
+    color: #587078;
+    font-size: 35px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
 
 
 
 
 }
-.one:hover{
+
+.one:hover {
     color: rgb(255, 30, 0);
     font-weight: 300;
 }
 
-.two{
-    height:70%;
+.two {
+    height: 70%;
     width: 60%;
-/* border: solid; */
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
+    /* border: solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-.search{
+
+.search {
     display: flex;
     align-items: center;
     margin-right: 0;
     width: fit-content;
     border: none;
- }
- .search form{
+}
+
+.search form {
     display: flex;
     margin: 0;
- }
- .search input{
+}
+
+.search input {
     padding: 10px;
     border: 1px solid #ddd;
     outline: none;
     border-radius: 5px;
     margin-right: 10px;
     font-size: 16px;
- }
-  .search input:hover{
+}
+
+.search input:hover {
     border: 1px solid rgb(255, 30, 0);
-  }
-.search button{
+}
+
+.search button {
     padding: 10px;
     background-color: #7efc84;
     border: none;
@@ -77,12 +84,14 @@ align-items: center;
     font-size: 19px;
     cursor: pointer;
 }
-.search button:hover{
+
+.search button:hover {
     background-color: #ccc;
 }
-.main{
+
+.main {
     height: 100vh;
-    background-color:rgb(152 184 187);
+    background-color: rgb(152 184 187);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -90,113 +99,148 @@ align-items: center;
 
 
 }
-.welcome{
+
+.welcome {
     height: 50%;
     width: 60%;
-/* border: solid; */
-    
+    /* border: solid; */
+    /* border-radius: 40%; */
+
 
 }
-.a{
+
+.a {
     height: 40%;
     width: 100%;
-/* border: solid; */
-display: flex;
-justify-content: center;
-align-items: center;
-}
-h1{font-size: 65px;
-color: bisque;
-background-color: white;
-animation: backwards;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-h1:hover{background-color: black;}
-.b{
-     height: 33%;
-    width: 100%;
-/* border: solid; */
-display: flex;
-justify-content: center;
-align-items: center;
+
+h1 {
+    font-size: 65px;
+    color: bisque;
+    background-color: white;
+    animation: backwards;
 
 }
-.c{
-     height: 33%;
-    width: 100%;
-border: solid;
 
+h1:hover {
+    background-color: rgb(179, 54, 252);
+}
 
-}
-.b1{
-    height: 55%;
-width:55%;
-/* border: solid; */
-display: flex;
-justify-content: center;
-align-items: center;
-background-color:bisque;
-
-}
-.search{
-     height: 50%;
-    width: 60%;
-/* border: solid; */
-display: flex;
-justify-content:center;
-align-items: center;
-    
-}
-.guest{
+.b {
     height: 33%;
-    width: 100%;border: solid;
+    width: 100%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-/* #L1{ */
-    height: 50%;
+
+.c {
+    height: 33%;
+    width: 100%;
     border: solid;
+
+
+}
+
+.b1 {
+    height: 55%;
+    width: 55%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+
+}
+
+.search {
+    height: 50%;
+    width: 60%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.guest {
+    height: 33%;
+    width: 100%;
+    border: solid;
+
+}
+
+/* #L1{ */
+height: 50%;
+border: solid;
 width: 50%;
 border-radius: 100%;
 color: brown;
 background-color: brown;
 }
-one:hover{
-   background-color: rgb(24, 111, 217);
-   font-size: 50px;
-}
-option{font-size: 23px;
-color: antiquewhite;
-background-color:rgb(126, 126, 132);
-}
-select{font-size: 35px;
-color: #333;
-border: none;
-background-color: burlywood;}
 
-.two p:hover{
+one:hover {
+    background-color: rgb(24, 111, 217);
+    font-size: 50px;
+}
+
+option {
+    font-size: 23px;
+    color: antiquewhite;
+    background-color: rgb(126, 126, 132);
+}
+
+select {
+    font-size: 35px;
+    color: #333;
+    border: none;
+    background-color: burlywood;
+}
+
+.two p:hover {
     color: rgb(255, 30, 0);
-    font-size: 30px;}
-select:hover{background-color: bisque;
-font-size: 25px;
-color: rgba(0, 0, 0, 0.267);
+    font-size: 30px;
+}
+
+select:hover {
+    background-color: bisque;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.267);
 
 }
 
-    .two p{
-        font-size: 20px;
-        color: #333;
-        text-decoration: none;
-        transition: 0.3s ease;}
-.c{border-radius: 25px;
-display: flex;
-justify-content:space-between;
-align-items: center;
-width:55%;
-height: 25%;
-position: absolute;
-margin: 2px;font-size: 25px;color: ;}
-.pho{width: 300px;height: 300px;border: solid;background-image: url(download.jpeg);
-background-repeat: no-repeat;
-background-size:cover;}
+.two p {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
 
+.c {
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    height: 25%;
+    position: absolute;
+    margin: 2px;
+    font-size: 25px;
+    color: ;
+}
 
+.pho {
+    width: 600px;
+    height: 300px;
+    /* border: solid; */
+    background-image: url(./db.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
